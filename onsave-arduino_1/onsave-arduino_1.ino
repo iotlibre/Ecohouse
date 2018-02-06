@@ -25,7 +25,8 @@ void setup(void)
      temperatureSensorsBegin();
 
      lcd.begin(16, 2);
-     lcd.print(F("La_Azucarera_50"));
+     lcd.setCursor(0, 0); lcd.print(F("Zaragoza"));
+     lcd.setCursor(0, 1); lcd.print(F("      Vivienda"));
   }
 
 void loop(void)

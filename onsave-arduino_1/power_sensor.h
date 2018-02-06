@@ -10,27 +10,27 @@
 
 #define MAME_PWR_1 "Pinza_1"
 #define ENTER_1 A0
-#define CURRENT_CONST_1 97.6
+#define CURRENT_CONST_1 30
 
 #define MAME_PWR_2 "Pinza_2"
 #define ENTER_2 A1
-#define CURRENT_CONST_2 97.6
+#define CURRENT_CONST_2 30
 
 #define MAME_PWR_3 "Pinza_3"
 #define ENTER_3 A2
-#define CURRENT_CONST_3 97.6
+#define CURRENT_CONST_3 30
 
 #define MAME_PWR_4 "Pinza_4"
 #define ENTER_4 A3
-#define CURRENT_CONST_4 97.6
+#define CURRENT_CONST_4 30
 
 #define MAME_PWR_5 "Pinza_7"
 #define ENTER_5 A6
-#define CURRENT_CONST_5 600
+#define CURRENT_CONST_5 97.6
 
 #define MAME_PWR_6 "Pinza_8"
 #define ENTER_6 A7
-#define CURRENT_CONST_6 600
+#define CURRENT_CONST_6 97.6
 
 
 // *******************************************************
