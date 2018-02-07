@@ -209,6 +209,7 @@ double EnergyMonitor::calcIrms(unsigned int Number_of_Samples)
     
     
     // 2) sum
+    // Seleccioa el margen de ruido a la entrada
     if (sqI > 20.0) enable_sumI = 1;
     sumI += sqI; 
     // sumI += sqI;
