@@ -1222,10 +1222,6 @@ Wire Wire Line
 	3600 1215 3600 1230
 Text Label 5530 1490 0    60   ~ 0
 presion_2
-Text Label 8055 1445 0    60   ~ 0
-scl_pre_2
-Text Label 8055 1545 0    60   ~ 0
-sda_int_6
 $Comp
 L D D2
 U 1 1 5A8314E7
@@ -1267,4 +1263,8 @@ Text Label 8995 2535 0    60   ~ 0
 presion_2
 Text Label 7080 2530 0    60   ~ 0
 scl_pre_1
+Text Label 8050 1445 0    60   ~ 0
+scl_pre_1
+Text Label 8055 1545 0    60   ~ 0
+sda_int_5
 $EndSCHEMATC
