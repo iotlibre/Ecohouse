@@ -1,0 +1,2 @@
+fichero que contiene las mejoras 
+* Las vias no tienen un pad sobre el que soldar. sustituir el puente por una resistencia de 0.0 ohmios
