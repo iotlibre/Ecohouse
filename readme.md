@@ -71,13 +71,17 @@ La puesta a punto de libre_building consta de dos partes:
 
 ### El ajuste del voltaje de trabajo
 El ajuste del voltaje de trabajo se hace para adaptar cualquier alimentación al voltaje de trabajo de EcoHouse que es 7,5 voltios.
+
 La fuente de alimentación suministrada es de 12 voltios aunque el dispositivo funciona correctamente siempre que el voltaje de trabajo quede configurado entre 7 y 9 voltios.
+
 Una vez conectada la  fuente de alimentación medir el voltaje en el punto (W103), situado al lado de  el Convertidor DC-DC (U1), y ajustarlo a 7,5 voltios con el potenciómetro que incorpora el convertidor. 
 
-## La configuración en la instalación
-En este punto se definen los parámetros del servidor de destino y la wifi local a la que va a estar conectado el libre_building. 
-Con este fin, la primera vez que se ponga en servicio el ESP y siempre que no encuentre la WIFI configurada, el ESP 8266 12E creará su propio punto de acceso, su propia red WIFI . Conectandose a cualquier dirección a través de este punto de acceso nos aparecerá la página de configuración del ESP. Tengase en cuenta que una  vez configurado el ESP y conectado a una red WIFI el router le asignará una única dirección IP a la que será necesario acceder para cambiar la configuración.
-El firmware de Arduino
+### La configuración en la instalación
+En este punto se definen los parámetros del servidor de destino y la wifi local a la que va a estar conectado el dispositivo. Con este fin, la primera vez que se ponga en servicio el ESP y siempre que no encuentre la WIFI configurada, el ESP 8266 12E creará su propio punto de acceso, su propia red WIFI . Conectandose a cualquier dirección a través de este punto de acceso nos aparecerá la página de configuración del ESP. Tengase en cuenta que una  vez configurado el ESP y conectado a una red WIFI el router le asignará una única dirección IP a la que será necesario acceder para cambiar la configuración.
+
+En caso de que se quiera actualizar el firmware del ESP a la última versión, este se puede encontrar en: [ecohouse-nano ](https://github.com/iotlibre/Ecohouse/tree/master/EmonESP)
+
+### El firmware de Arduino
 El firmware que que esta cargado por defecto en el arduino nano funciona correctamente sin embargo si quiere cambiar la configuración puedes encontrar la última actualización del firmware en este repositorio:[ecohouse-nano ](https://github.com/iotlibre/Ecohouse/tree/master/ecohouse-arduino_1)
 
 
