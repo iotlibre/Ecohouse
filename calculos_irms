@@ -39,7 +39,8 @@ current constant = (160 ÷ 0.040) ÷ 10 = 400
 Transformation relation for SCT036TS 160A:0.04A
 current constant = (160 ÷ 0.040) ÷ 20,5 = 195,1
 
-
+Transformation relation for SCT024TS 400A:0.1A
+current constant = (400 ÷ 0.1) ÷ 20,5 = 195
 
 YHDC TA17L -04
 20A -> 10 mA
