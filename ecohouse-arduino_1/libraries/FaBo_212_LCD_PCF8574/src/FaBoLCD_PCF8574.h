@@ -18,7 +18,8 @@
 #include <Wire.h>
 #include "Print.h"
 
-#define PCF8574_SLAVE_ADDRESS 0x27 ///< Arduino uno: 0x3f Arduino nano: 0x27
+// depending on the hardware: 0x3f, 0x27
+#define PCF8574_SLAVE_ADDRESS 0x27 
 
 // commands
 #define LCD_CLEARDISPLAY 0x01
