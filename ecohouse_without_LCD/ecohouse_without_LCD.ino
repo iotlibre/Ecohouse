@@ -7,7 +7,6 @@
 #define TXPIN 5
 SoftwareSerial wifiSerialInit (RXPIN,TXPIN);
 
-#include "temperature_sensor.h"
 #include "power_sensor.h"
 
 uint32_t t_last_tx=0;
@@ -18,7 +17,6 @@ void setup(void)
   {     
      Serial.begin(BPS);
      wifiSerialInit.begin(BPS);
-     temperatureSensorsBegin();
   }
 
 void loop(void)
